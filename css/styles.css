@@ -5,7 +5,7 @@
 }
 
 #logo-img{
-	background: url('../images/Presidency-University-logo.png') no-repeat;
+	background: url('../Presidency-University-logo.PNG') no-repeat;
 	width: 2500px;
 	height: 250px;
 	margin-right: -200px;
@@ -71,7 +71,7 @@ h2 {
 
 .selected::after {
   content: "";
-  background: url("img/arrow-down.svg");
+  background: url("../img/arrow-down.svg");
   background-size: contain;
   background-repeat: no-repeat;
 
@@ -94,6 +94,7 @@ h2 {
 .select-box .options-container.active + .selected::after {
   transform: rotateX(180deg);
   top: -6px;
+  color: white;
 }
 
 .select-box .options-container::-webkit-scrollbar {
