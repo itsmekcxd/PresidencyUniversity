@@ -5,10 +5,10 @@
 }
 
 #logo-img{
-	background: url('../Presidency-University-logo.PNG') no-repeat;
 	width: 2500px;
 	height: 250px;
-	margin-right: -200px;
+	background: white;
+	color: black;
 }
 
 #main{
@@ -174,7 +174,16 @@ li{
 	color: black;
 }
 
-h1 {
-	background: blue;
-	color: white;
+h1,
+h4{
+	background: white;
+	color:#00008B;
+	text-align: center;
+}
+h1{
+	font-size: 50px;
+}
+h4{
+	margin-bottom: 40px;
+	margin-top: 0px;
 }
