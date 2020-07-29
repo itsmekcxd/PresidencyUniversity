@@ -158,14 +158,23 @@ a{
 	text-align: center;
 	background: black;
 	color: white;
-	margin-left: 500px;
 	padding:3px;
 }
+
+#q,
+#w,
+#e,
+#r{
+	text-align: center;
+}
+
 li{
 	border-width: 0.7px;
 	border-style:solid;
 	border-color: solid black;
-	font-size: 25px;
+	font-size: 140%;
+	margin-left: 0px;
+
 }
 #self,
 #a,
